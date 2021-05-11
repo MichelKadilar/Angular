@@ -1,0 +1,57 @@
+#pseudo,
+#mdp,
+#email,
+#prenom,
+#nom {
+  color: black;
+  width: 500px;
+  height: 60px;
+}
+#pseudo:focus,
+#mdp:focus,
+#email:focus,
+#prenom:focus,
+#nom:focus {
+  background-color: rgb(219, 216, 216);
+}
+#pseudo:hover,
+#mdp:hover,
+#email:hover,
+#prenom:hover,
+#nom:hover {
+  background-color: rgb(240, 236, 236);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.formulaire {
+  border: 3px;
+  border-color: black;
+  background-image: url("images/flowers-pink.jpg");
+  background-size: cover;
+  opacity: 0.95;
+  font-size: large;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
+.messageObligatoire {
+  color: white;
+  
+}
+.labelInfosFormulaire{
+    color: white;
+}
